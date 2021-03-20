@@ -1,0 +1,4 @@
+export const actionNames = {
+    INCREMENT_NUMBER: 'INCREMENT_NUMBER',
+    DECREMENT_NUMBER: 'DECREMENT_NUMBER'
+}

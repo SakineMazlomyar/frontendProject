@@ -1,0 +1,13 @@
+@import '../../globalStyles/globalVariables.scss';
+.viewContainer {
+    position: relative;
+    top: 10em;
+
+}
+
+.counter {
+    width: $smaller-width;
+    margin: auto;
+    color: $color-dark-grey;
+
+}

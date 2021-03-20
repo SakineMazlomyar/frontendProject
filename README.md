@@ -44,3 +44,17 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+# Description of the task
+Skapa ett nytt projekt med Create React App med typescript support: https://create-react-app.dev/docs/adding-typescript/ Projektet ska innehålla två sidor. Definitionen för begreppet "sida" är en vy med en unik URL som man kan navigera direkt till i webbläsaren.
+
+Skapa en sida med en knapp. Användaren ska kunna klicka på knappen och antalet knapptryckningar ska registreras i redux.
+Skapa en annan sida där antalet knapptryckningar läses in från redux och visas för användaren
+Knappen och antalet knapptryckningar får inte visas på samma sida utan måste presenteras på separata sidor. På varje sida skall en länk finnas till den andra sidan. Länkarna till sidorna kan vara synliga på båda sidor.
+
+Teknologier du ska använda dig av:
+
+React
+Typescript
+Redux
+Förutom dessa får du använda dig av vilka teknologier som helst.
