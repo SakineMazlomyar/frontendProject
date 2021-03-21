@@ -9,8 +9,8 @@
 ##### Hosting on 
 
 ### The structure of the project 
-#### from the root in the src  folder you can find all the componets, routes, pages, store, actions globalstyles
-#### every component has its style and interface
+#### From the root in the src  folder you can find all the componets, routes, pages, store, actions globalstyles
+#### Every component has its style and interface
 
 ------
 
@@ -19,7 +19,7 @@
 ### npm start
 ### the page should open at: [http://localhost:3000]
 
-
+------
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

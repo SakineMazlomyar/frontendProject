@@ -8,11 +8,11 @@
     display: block;
     padding: $padding-small;
     height: 5em;
-    border-radius: $border-radius-with-smallest;
+    border-radius: 5px;
     &:focus {
         border-radius: 0em;
         background-color: $background-color-dark-grey;
-        border:  calc( $borderwith-smaller + 1 ) solid $bordercolor-blue;
+        border:  5px solid $bordercolor-blue;
     }
 }
 
