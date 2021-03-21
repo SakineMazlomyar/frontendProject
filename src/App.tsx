@@ -1,6 +1,6 @@
 import { Provider } from 'react-redux' 
-import Store from './store/Store'
-import Routes from './routes/index'
+import Store from './stateManagment/store/Store'
+import Routes from './routes'
 import Navbar from './components/navbar/Navbar'
 
 const App = () => {

@@ -1,9 +1,9 @@
 import React from 'react'
 import { Switch } from 'react-router-dom'
 import  { Route } from 'react-router';
-import ViewCounter from '../components/pages/ViewCounter'
-import NofoundPage from '../components/pages/404'
-import Home from '../components/pages/Home'
+import ViewCounter from '../components/pages/viewCounter/ViewCounter'
+import NofoundPage from '../components/pages/404/404'
+import Home from '../components/pages/home/Home'
 
 const Routes  = () => {
     return (
