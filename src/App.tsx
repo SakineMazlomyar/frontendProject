@@ -10,7 +10,6 @@ const App = () => {
           <React.Fragment>
             <Navbar />
             <Routes />  
-
           </React.Fragment>
     </Provider>
 )}

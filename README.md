@@ -1,5 +1,5 @@
 ###  What is this app for?
-##### An simple Application for decrement and increment a number and show the result on another page.
+##### An simple Application for increment a number and show the result on another page.
 ##### Live url: http://139.59.142.175:8080/
 ----
 
@@ -12,7 +12,7 @@
 ### The structure of the project 
 #### From the root in the src  folder you can find:
 ##### 1. components,    ==> Every component has its style and interface separately 
-##### 2. globalstyles,  ==> Here is where all global variables for the entire application 
+##### 2. sharedStyles,  ==> Here is where all global variables for the scss files
 ##### 3. routes,        ==> Defines every single  route that has been used in this project
 ##### 4. stateManagment ==> The core of the application which handles all the requests and holds the data for the entire applications. )
 
@@ -27,7 +27,6 @@
 ------
 ### Which improvments has been done on this project?
 ###### Using scss instead of css
-###### Adding decrement button
 ###### Hosting on digital ocean
 ------
 #### Description of the task in Swedish 
