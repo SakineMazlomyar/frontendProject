@@ -31,11 +31,14 @@
 ###### Ladda upp projektet på ett git repository på t.ex. Github eller Gitlab och skicka oss en länk till repository:t.
 -----
 
-###### How to run the dev envirument? 
+### How to run the dev envirument? 
 ###### Make sure you have latest node and npm package installed
 ###### npm install in the terminal from the root folder (for loading all dependencies)
 ###### npm start
 ###### The page should be open at: [http://localhost:3000]
 
 ------
-
+### Which improvments has been done on this project?
+###### Using scss instead of css
+###### Adding decrement button
+###### Hosting on digital ocean
