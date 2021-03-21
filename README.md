@@ -11,10 +11,10 @@
 
 ### The structure of the project 
 #### From the root in the src  folder you can find:
-##### components,    ==> Every component has its style and interface separately 
-##### globalstyles,  ==> Here is where all global variables for the entire application 
-##### routes,        ==> Defines every single  route that has been used in this project
-##### stateManagment ==> The core of the application which handles all the requests and holds the data for the entire applications. )
+##### 1. components,    ==> Every component has its style and interface separately 
+##### 2. globalstyles,  ==> Here is where all global variables for the entire application 
+##### 3. routes,        ==> Defines every single  route that has been used in this project
+##### 4. stateManagment ==> The core of the application which handles all the requests and holds the data for the entire applications. )
 
 ------
 
