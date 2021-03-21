@@ -1,12 +1,12 @@
 ###  What is this app for?
 ##### An Application for decrement and increment the number.
-##### Live url: 
+##### Live url: http://139.59.142.175:8080/
 ----
 
 ###  Which stack has been used for the project?
 
 #### React, Typescript, Redux, scss in the frontend
-#### Hosting on 
+#### Hosting on  digitalocean http://139.59.142.175:8080/
 ------
 
 ### The structure of the project 
