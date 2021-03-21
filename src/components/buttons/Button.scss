@@ -10,24 +10,15 @@
     height: 5em;
     margin-bottom: $margin-small;
     border-radius: 5px;
+    width: 35%; 
     &:focus {
         border-radius: 0em;
         background-color: $background-color-dark-grey;
-        border:  5px solid $bordercolor-blue;
     }
 }
 
-// Small devices (landscape phones, 320px and up)
-// Medium devices (tablets, 700px and up)
-@media only screen and ( min-width: $min-phone-width )  and ( min-width: $min-tablet-width ) {
-    .button { width: 25%; margin-bottom: $margin-small; }
-}
-@media ( min-width: $min-tablet-width ) { 
-    .button { width: 25%}
-}
 
-// Large devices (desktops, 992px and up)
-// Extra large devices (large desktops, 1200px and up)
-@media ( min-width: $min-large-desktops-width ) and ( min-width: $min-extra-large-desktops-width ) { 
-    .button { width: 35%  } 
- }
+// Medium devices (tablets, 700px and down)
+@media ( max-width: $min-tablet-width ) { 
+    .button { width: 50%; }
+}

@@ -5,6 +5,7 @@
     position: relative;
     top: 10em;
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
 }
@@ -14,14 +15,4 @@
         flex-direction: column;
     }
 }
-// Medium devices (tablets, 700px and up)
-// Large devices (desktops, 992px and up)
-// Extra large devices (large desktops, 1200px and up)
-@media ( min-width: $min-tablet-width ) 
-    and ( min-width: $min-large-desktops-width )
-    and ( min-width: $min-extra-large-desktops-width ) { 
-    .buttonContainer {
-        flex-direction: row;
 
-    }
-}

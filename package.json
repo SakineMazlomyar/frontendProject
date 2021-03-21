@@ -29,8 +29,9 @@
     "web-vitals": "^1.1.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "PORT=8080 react-scripts start",
     "build": "react-scripts build",
+    "production": "pm2 start --name dashboard npm -- start",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
