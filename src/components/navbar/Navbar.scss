@@ -9,16 +9,18 @@
     overflow: hidden;
 }
 
-ul { list-style: none; }
-ul > li > a {  text-decoration: none; color: $navbar-text-color; }
-
 .navbarItemContainer {
     display: flex;
     justify-content: space-around;
+    list-style: none;
     .navbarItem {
         .active {
             color: $color-red;
             text-decoration: underline;
+        }
+        a {
+            text-decoration: none;
+            color: $navbar-text-color
         }
     }
 }
