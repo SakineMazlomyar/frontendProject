@@ -15,9 +15,10 @@
 ------
 
 ### How to run the dev envirument? 
-### npm install in the terminal (for loading all dependencies)
+### Make sure you have latest node and npm package installed
+### npm install in the terminal from the root folder (for loading all dependencies)
 ### npm start
-### the page should open at: [http://localhost:3000]
+### The page should open at: [http://localhost:3000]
 
 ------
 # Getting Started with Create React App
