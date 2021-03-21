@@ -11,11 +11,11 @@
 
 ### The structure of the project 
 #### From the root in the src  folder you can find:
-##### components, 
-##### globalstyles,  ( *Which has been used in all other scss files for simplicity and more structured manner)
-##### routes,        ( *Defines which routes has been used in this project )
-##### stateManagment ( *The core of the application which handles all the requests and holds the data for the entire applications. )
-#### ***Every component has its style and interface*** 
+##### components,    ==> Every component has its style and interface separately 
+##### globalstyles,  ==> Which has been used in all other scss files for simplicity and more structured manner
+##### routes,        ==> Defines which routes has been used in this project
+##### stateManagment ==> The core of the application which handles all the requests and holds the data for the entire applications. )
+
 ------
 
 ### How to run the dev envirument? 
