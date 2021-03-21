@@ -24,11 +24,11 @@
 
 ##### Teknologier du ska använda dig av:
 
-###### -1 React
-##### -2 Typescript
-##### -3 Redux
-##### Förutom dessa får du använda dig av vilka teknologier som helst.
-##### Ladda upp projektet på ett git repository på t.ex. Github eller Gitlab och skicka oss en länk till repository:t.
+###### 1- React
+###### 2- Typescript
+###### 3- Redux
+###### Förutom dessa får du använda dig av vilka teknologier som helst.
+###### Ladda upp projektet på ett git repository på t.ex. Github eller Gitlab och skicka oss en länk till repository:t.
 -----
 
 ### How to run the dev envirument? 
