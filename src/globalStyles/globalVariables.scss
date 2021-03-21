@@ -21,14 +21,14 @@ $color-dark-strong: #252424;
 $bordercolor-blue: #0960CF;
 
 // border width
-$borderwith-small: 2;
-$borderwith-smaller: 1.5;
-$borderwith-smallest: 1;
+$borderwith-small: 2em;
+$borderwith-smaller: 1.5em;
+$borderwith-smallest: 1em;
 
 // border radius
-$border-radius-with-small: 2;
-$border-radius-with-smaller: 1.5;
-$border-radius-with-smallest: 1;
+$border-radius-with-small: 2em;
+$border-radius-with-smaller: 1.5em;
+$border-radius-with-smallest: 1em;
 
 // media queries
 $min-phone-width: 320px; 
@@ -37,14 +37,14 @@ $min-large-desktops-width: 992px;
 $min-extra-large-desktops-width: 1200px;
 
 // padding
-$padding-small: 1;
-$padding-smaller: 0.5rem;
-$padding-smallest: 0;
+$padding-small: 1em;
+$padding-smaller: 0.5em;
+$padding-smallest: 0em;
 
 // margin
-$margin-small: 1;
-$margin-smaller: 0.5;
-$margin-smallest: 0;
+$margin-small: 1em;
+$margin-smaller: 0.5em;
+$margin-smallest: 0em;
 
 // font-size small
 $font-size-small:  1.2em;
@@ -55,12 +55,3 @@ $font-size-smallest: 0.5em;
 $font-size-larg:  1.5em;
 $font-size-larger: 2;
 $font-size-largest: 2.5;
-
-// width
-$small-width: 100%;
-$smaller-width: 50%;
-
-// height
-$small-height: 100%;
-$small-height: 50%;
-

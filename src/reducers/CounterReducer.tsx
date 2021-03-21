@@ -8,8 +8,10 @@ const counterReducer = ( state = initialState, action:Action ) => {
     switch( action.type ) {
         case actionNames.INCREMENT_NUMBER: 
             return { ...state, counter: state.counter +1 }
+
         case actionNames.DECREMENT_NUMBER: 
             return { ...state, counter: state.counter -1 }
+            
         default: 
         return state
     }

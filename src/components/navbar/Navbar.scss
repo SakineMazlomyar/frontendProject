@@ -6,8 +6,6 @@
     width: $navbar-width;
     background-color: $navbar-background-color;
     height: $navbar-height;
-    margin: $margin-small;
-    padding: $padding-small;
     overflow: hidden;
 }
 
@@ -67,7 +65,7 @@ ul > li > a {  text-decoration: none; color: $navbar-text-color; }
         flex-direction: row;
         .navbarItem {
             .active {
-                font-size: calc( $font-size-smallest + 0.4em );
+                font-size: $font-size-small;
             }
         }
     }

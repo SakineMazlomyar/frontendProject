@@ -7,8 +7,10 @@
 .button {
     display: block;
     padding: $padding-small;
-    border-radius: calc( $border-radius-with-smallest * 3 );
+    height: 5em;
+    border-radius: $border-radius-with-smallest;
     &:focus {
+        border-radius: 0em;
         background-color: $background-color-dark-grey;
         border:  calc( $borderwith-smaller + 1 ) solid $bordercolor-blue;
     }
@@ -16,19 +18,19 @@
 
 // Small devices (landscape phones, 320px and up)
 @media only screen and ( min-width: $min-phone-width ) {
-    .button { width: $smaller-width; margin-bottom: $margin-small; }
+    .button { width: 25%; margin-bottom: $margin-small; }
 }
 // Medium devices (tablets, 700px and up)
 @media ( min-width: $min-tablet-width ) { 
-    .button { width: calc( $smaller-width - 20% ); }
+    .button { width: 25%} // 25
 }
 
 // Large devices (desktops, 992px and up)
 @media ( min-width: $min-large-desktops-width ) { 
-    .button { width: calc( $smaller-width - 30% );}
+    .button { width: 35%  } 
  }
 
 // Extra large devices (large desktops, 1200px and up)
 @media ( min-width: $min-extra-large-desktops-width ) {
-    .button { width: calc( $smaller-width - 30% );}
+    .button { width: 35% }
 }
