@@ -10,7 +10,7 @@ const Routes  = () => {
         <React.Fragment>  
             <Switch>
                     <Route exact path="/"  component={ Home }></Route>
-                    <Route path="/nextpage" component={ ViewCounter }></Route>
+                    <Route path="/counterPage" component={ ViewCounter }></Route>
                     <Route component={ NofoundPage }></Route>
             </Switch>
         </React.Fragment>  

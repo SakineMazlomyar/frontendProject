@@ -38,36 +38,16 @@
     }
 }
 // Medium devices (tablets, 700px and up)
-@media ( min-width: $min-tablet-width ) { 
-    .navbarItemContainer {
-        flex-direction: row;
-        .navbarItem {
-            .active {
-                font-size: $font-size-smaller;
-            }
-        }
-    }
-}
-
 // Large devices (desktops, 992px and up)
-@media ( min-width: $min-large-desktops-width ) { 
+// Extra large devices (large desktops, 1200px and up)
+@media ( min-width: $min-tablet-width ) 
+    and ( min-width: $min-large-desktops-width )
+    and ( min-width: $min-extra-large-desktops-width ) { 
     .navbarItemContainer {
         flex-direction: row;
         .navbarItem {
             .active {
                 font-size: $font-size-smaller;
-            }
-        }
-    }
- }
-
-// Extra large devices (large desktops, 1200px and up)
-@media ( min-width: $min-extra-large-desktops-width ) {
-    .navbarItemContainer {
-        flex-direction: row;
-        .navbarItem {
-            .active {
-                font-size: $font-size-small;
             }
         }
     }

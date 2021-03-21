@@ -3,11 +3,37 @@
 .viewContainer {
     position: relative;
     top: 10em;
-    
+
     .counter {
         width: 25%;
         margin: auto;
         color: $color-dark-grey;
     }
+}
+
+// Small devices (landscape phones, 320px and up)
+@media only screen and ( min-width: $min-phone-width ) {
+    .viewContainer {
+        .counter {
+            display: block;
+            margin-left: $margin-small;
+            width: 100%;
+        }
+    }
+}
+
+// Medium devices (tablets, 700px and up)
+// Large devices (desktops, 992px and up)
+// Extra large devices (large desktops, 1200px and up)
+@media  ( min-width: $min-tablet-width ) 
+        and ( min-width: $min-extra-large-desktops-width ) 
+        and ( min-width: $min-large-desktops-width ) { 
+        .viewContainer {
+            .counter {
+                width: 25%;
+                margin: auto;
+                color: $color-dark-grey;
+            }
+        }
 }
 

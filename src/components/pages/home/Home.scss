@@ -9,29 +9,19 @@
     align-items: center;
 }
 // Small devices (landscape phones, 320px and up)
-@media only screen and (min-width: $min-phone-width) {
+@media only screen and ( min-width: $min-phone-width ) {
     .buttonContainer {
         flex-direction: column;
     }
 }
 // Medium devices (tablets, 700px and up)
-@media (min-width: $min-tablet-width) { 
-    .buttonContainer {
-        flex-direction: row;
-
-    }
-}
-
 // Large devices (desktops, 992px and up)
-@media (min-width: $min-large-desktops-width) { 
-    .buttonContainer {
-        flex-direction: row;
-    }
- }
-
 // Extra large devices (large desktops, 1200px and up)
-@media ( min-width: $min-extra-large-desktops-width) {
+@media ( min-width: $min-tablet-width ) 
+    and ( min-width: $min-large-desktops-width )
+    and ( min-width: $min-extra-large-desktops-width ) { 
     .buttonContainer {
         flex-direction: row;
+
     }
 }
