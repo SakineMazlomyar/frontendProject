@@ -1,9 +1,9 @@
 ###  What is this app for?
-##### An Application for decrement and increment the number.
+##### An simple Application for decrement and increment a number and show it on another page.
 ##### Live url: http://139.59.142.175:8080/
 ----
 
-###  Which stack has been used for the project?
+###  Which stack has been used for this project?
 
 #### React, Typescript, Redux, scss in the frontend
 #### Hosting on  digitalocean http://139.59.142.175:8080/
