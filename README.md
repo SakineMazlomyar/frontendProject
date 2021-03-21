@@ -10,7 +10,7 @@
 ------
 
 ### The structure of the project 
-#### From the root in the src  folder you can find all the componets, routes, pages, store, actions globalstyles
+#### From the root in the src  folder you can find components, globalstyles, routes, stateManagment
 #### Every component has its style and interface
 
 ------
