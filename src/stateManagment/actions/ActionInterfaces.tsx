@@ -1,4 +1,5 @@
 /* All action interfaces  */
-export interface Dispatch {
+
+export interface DispatchInterFace  {
     type: string
 }

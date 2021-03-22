@@ -1,8 +1,8 @@
 /* All reducer interfaces */
 
-export interface Action {
+export interface ActionInterface {
     type: string
 }
-export interface State {
+export interface StateInterface {
     counter: number
 }

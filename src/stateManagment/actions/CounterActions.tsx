@@ -1,12 +1,12 @@
 import { actionNames } from './ActionNames'
-import { Dispatch } from './ActionInterfaces'
+import { DispatchInterFace  } from './ActionInterfaces'
 
  /**
-  * Increments the number
+  * Returns the increment counter action
   * @param {Dispatch}
-  * @returns {Objet}
+  * @returns {object}
   */
-export const counterIncrement = () => ( dispatch: ( Arguments: Dispatch ) => Dispatch ) => {
+export const counterIncrement = () => ( dispatch: ( Arguments: DispatchInterFace ) => DispatchInterFace  ) => {
     return dispatch({
         type: actionNames.INCREMENT_NUMBER
     })  

@@ -1,7 +1,7 @@
-import { ButtonProps } from './ButtonInterfaces'
+import { ButtonInterface } from './ButtonInterfaces'
 import  './Button.scss'
 
-const Button = ( props: ButtonProps ) => 
+const Button = ( props: ButtonInterface ) => 
         <button  
             onClick={ ()=> props.onclick() }  
             className="button"

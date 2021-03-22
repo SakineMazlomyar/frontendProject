@@ -1,7 +1,8 @@
 /* All viewCounter interfaces */
-export interface CounterReducr {
+
+export interface CounterReducrInterface {
     counter: Number
 }
-export interface State {
-    counterReducer: CounterReducr
+export interface StateInterface {
+    counterReducer: CounterReducrInterface
 }

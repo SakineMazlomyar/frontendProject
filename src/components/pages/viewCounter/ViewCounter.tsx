@@ -1,9 +1,9 @@
 import { useSelector } from 'react-redux'
 import './ViewCounter.scss'
-import { State } from './ViewCounterInterfaces'
+import { StateInterface  } from './ViewCounterInterfaces'
 
 const ViewCounter = () => {
-    const counter = useSelector( ( state: State ) => state.counterReducer.counter )
+    const counter = useSelector( ( state: StateInterface  ) => state.counterReducer.counter )
     return ( 
     <div className="viewContainer"> 
         <h1 className="counter">Counter: { counter} </h1> 

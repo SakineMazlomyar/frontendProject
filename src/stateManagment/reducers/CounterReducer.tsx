@@ -1,9 +1,9 @@
 import { actionNames } from '../actions/ActionNames'
-import { Action, State } from './ReducerInterfaces'
+import { ActionInterface, StateInterface } from './ReducerInterfaces'
 
-const initialState:State = { counter: 0 }
+const initialState:StateInterface = { counter: 0 }
 
-const counterReducer = ( state = initialState, action:Action ) => {
+const counterReducer = ( state = initialState, action:ActionInterface ) => {
     switch( action.type ) {
         case actionNames.INCREMENT_NUMBER: 
             return { counter: state.counter +1 }
