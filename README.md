@@ -29,7 +29,7 @@
 ###### 2. clone the project or unzipe the zipped files
 ###### 3. npm install in the terminal from the root folder (for loading all dependencies)
 ###### 4. npm start
-###### 5. The page should be open at: [http://localhost:3000]
+###### 5. The page should be open at: [http://localhost:8080] (OBG Please make sure port 8080 is free when you run this project)
 
 ------
 
