@@ -18,6 +18,10 @@
 
 ------
 
+### Which improvments has been done on this project?
+###### Using scss instead of css
+###### Adding jest test
+###### Hosting on digital ocean
 ### How to run the dev envirument? 
 ###### Make sure you have latest node and npm package installed
 ###### npm install in the terminal from the root folder (for loading all dependencies)
@@ -25,10 +29,7 @@
 ###### The page should be open at: [http://localhost:3000]
 
 ------
-### Which improvments has been done on this project?
-###### Using scss instead of css
-###### Hosting on digital ocean
-------
+
 #### Description of the task in Swedish 
 ###### Vi ser gärna att vi får in detta inom en vecka eller två om intresse och möjlighet finns.
 ##### Skapa ett nytt projekt med Create React App med typescript support: https://create-react-app.dev/docs/adding-typescript/ Projektet ska innehålla två sidor. Definitionen för begreppet "sida" är en vy med en unik URL som man kan navigera direkt till i webbläsaren.
