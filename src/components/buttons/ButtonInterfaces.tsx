@@ -1,4 +1,4 @@
-/* All button interfaces  */
+/* Button interfaces  */
 
 export interface ButtonInterface {
     onclick: () => void,

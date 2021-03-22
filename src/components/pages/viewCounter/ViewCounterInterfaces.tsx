@@ -1,4 +1,4 @@
-/* All viewCounter interfaces */
+/* View counter interfaces */
 
 export interface CounterReducrInterface {
     counter: Number

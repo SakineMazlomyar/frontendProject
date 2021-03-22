@@ -1,4 +1,4 @@
-/* All action interfaces  */
+/* Actions interfaces  */
 
 export interface DispatchInterFace  {
     type: string

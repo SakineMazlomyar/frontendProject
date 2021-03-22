@@ -8,14 +8,13 @@ import { Router } from 'react-router'
 
 configure( { adapter: new Adapter() } ) 
 
-
 describe( 'Routes', () => {
 
     test('shoud exist', () => {
         const navbar = shallow( <Routes /> )
         expect( navbar.find('navbar') ).toBeTruthy()
     })
-    const root = document.createElement('div');
+    const root = document.createElement('div')
     document.body.appendChild(root)
 
     test( 'should find correct path for counterPage', () => {
@@ -25,7 +24,7 @@ describe( 'Routes', () => {
                 <App  />
             </Router>, root )
 
-        expect( history.location.pathname ).toBe( "/counterPage" );   
+        expect( history.location.pathname ).toBe( "/counterPage" )   
 
     })
 
