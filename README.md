@@ -19,17 +19,17 @@
 ------
 
 ### Which improvments has been done on this project that has not been in the requirements?
-###### 1.Using scss instead of css
-###### 2.Adding jest test
-###### 3.Hosting on digital ocean
+###### 1. Using scss instead of css
+###### 2. Adding jest test
+###### 3. Hosting on digital ocean
 ------
 
 ### How to run the dev envirument? 
-###### make sure you have latest node and npm package installed
-###### clone the project or unzipe the zipped files
-###### npm install in the terminal from the root folder (for loading all dependencies)
-###### npm start
-###### The page should be open at: [http://localhost:3000]
+###### 1. make sure you have latest node and npm package installed
+###### 2. clone the project or unzipe the zipped files
+###### 3. npm install in the terminal from the root folder (for loading all dependencies)
+###### 4. npm start
+###### 5. The page should be open at: [http://localhost:3000]
 
 ------
 
