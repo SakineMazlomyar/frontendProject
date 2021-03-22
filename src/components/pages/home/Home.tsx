@@ -1,15 +1,18 @@
 import React from 'react'
-import { useDispatch } from 'react-redux'
+import { useDispatch, } from 'react-redux'
 import { counterIncrement } from '../../../stateManagment/actions/CounterActions'
+import { Dispatch, Action } from "redux"
 import Button from '../../buttons/Button'
 import './Home.scss'
 
 
+  
+
 const Home : React.FC = () => {
-    const dispatch = useDispatch()
+    const dispatch = useDispatch< Dispatch<{type:string}>>()
     return (
         <div className="buttonContainer">
-            <Button onclick={ () => dispatch( counterIncrement() ) } label="Increment" color="#B0D41E" />
+            <Button onclick={()=> dispatch( counterIncrement() ) } label="+" color="#B0D41E" />
         </div> )
 }
 export default Home
