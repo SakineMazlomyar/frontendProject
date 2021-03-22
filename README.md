@@ -39,7 +39,7 @@
 
 ###### Skapa en sida med en knapp. Användaren ska kunna klicka på knappen och antalet knapptryckningar ska registreras i redux.
 ###### Skapa en annan sida där antalet knapptryckningar läses in från redux och visas för användaren
-##### Knappen och antalet knapptryckningar får inte visas på samma sida utan måste presenteras på separata sidor. På varje sida skall en länk finnas till den andra ##### sidan. Länkarna till sidorna kan vara synliga på båda sidor.
+##### Knappen och antalet knapptryckningar får inte visas på samma sida utan måste presenteras på separata sidor. På varje sida skall en länk finnas till den andra sidan. Länkarna till sidorna kan vara synliga på båda sidor.
 
 ##### Teknologier du ska använda dig av:
 
