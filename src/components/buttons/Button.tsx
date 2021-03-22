@@ -2,7 +2,10 @@ import { ButtonProps } from './ButtonInterfaces'
 import  './Button.scss'
 
 const Button = ( props: ButtonProps ) => 
-        <button  onClick={ ()=> props.onclick() }  className="button"> 
+        <button  
+            onClick={ ()=> props.onclick() }  
+            className="button"
+            data-testid="button"> 
             <span className="buttonLabel"> { props.label } </span>
         </button>
 
