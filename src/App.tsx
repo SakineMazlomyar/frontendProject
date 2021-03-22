@@ -4,7 +4,7 @@ import Store from './stateManagment/store/Store'
 import Routes from './routes'
 import Navbar from './components/navbar/Navbar'
 
-const App = () => {
+const App: React.FC = () => {
   return (
     <Provider store={ Store }>
           <BrowserRouter>

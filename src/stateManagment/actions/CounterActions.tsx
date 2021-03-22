@@ -6,7 +6,7 @@ import { DispatchInterFace  } from './ActionInterfaces'
   * @param {Dispatch}
   * @returns {object}
   */
-export const counterIncrement = () => ( dispatch: ( Arguments: DispatchInterFace ) => DispatchInterFace  ) => {
+export const counterIncrement = () => ( dispatch: ( Dispatch: DispatchInterFace ) => DispatchInterFace  ) => {
     return dispatch({
         type: actionNames.INCREMENT_NUMBER
     })  

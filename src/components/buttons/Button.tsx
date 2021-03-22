@@ -1,7 +1,8 @@
+import React from 'react'
 import { ButtonInterface } from './ButtonInterfaces'
 import  './Button.scss'
 
-const Button = ( props: ButtonInterface ) => 
+const Button: React.FC<ButtonInterface > = ( props ) => 
         <button  
             onClick={ ()=> props.onclick() }  
             className="button"
