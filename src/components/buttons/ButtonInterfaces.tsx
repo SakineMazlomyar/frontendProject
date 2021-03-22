@@ -1,7 +1,7 @@
 /* Button interfaces  */
 
 export interface ButtonInterface {
-    onclick: () => void,
+    onclick: (event: React.MouseEvent<HTMLButtonElement, MouseEvent>) => void,
     label: string,
     color: string
 }
