@@ -19,9 +19,11 @@
 ------
 
 ### Which improvments has been done on this project?
-###### Using scss instead of css
-###### Adding jest test
-###### Hosting on digital ocean
+###### 1.Using scss instead of css
+###### 2.Adding jest test
+###### 3.Hosting on digital ocean
+------
+
 ### How to run the dev envirument? 
 ###### Make sure you have latest node and npm package installed
 ###### npm install in the terminal from the root folder (for loading all dependencies)
