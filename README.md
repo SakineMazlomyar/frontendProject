@@ -25,7 +25,9 @@
 ------
 
 ### How to run the dev envirument? 
-###### Make sure you have latest node and npm package installed
+###### make sure you have installed latest node, npm
+###### clone the project or unzipe the zipped files
+###### make sure you have latest node and npm package installed
 ###### npm install in the terminal from the root folder (for loading all dependencies)
 ###### npm start
 ###### The page should be open at: [http://localhost:3000]
