@@ -35,7 +35,7 @@
 ### How to run jest test?
 ###### 1. go to root foler
 ###### 2. open the terminal and run `npm test` you should see the result 
-###### 3. Test result should look like this: ![./frontendProject/public/test-react-app.png](./frontendProject/public/test-react-app.png)
+###### 3. Test result should look like this: ![./public/test-react-app.png](./public/test-react-app.png)
 
 ------
 ### How to run build
