@@ -8,14 +8,14 @@ const props: ButtonInterface = {
     color: "#B0D41E"
 }
 
-describe( 'Button component', () => {
+describe('Button component', () => {
 
     test('should be in the document element', () => {
-        const { getByTestId } =  render(<Button {...props} />)
+        const { getByTestId } =  render( <Button {...props} /> )
         expect( getByTestId('button') ).toBeInTheDocument()
     })
 
-    test( 'Dispatch count increment when it is called once and prevent the default event from occuring', () => {
+    test('Dispatch count increment when it is called once and prevent the default event from occuring', () => {
         const { getByTestId } = render( <Button {...props} /> )
         const keyDownEvent = createEvent.keyDown( getByTestId( 'button' ) )
 
