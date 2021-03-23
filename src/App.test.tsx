@@ -2,12 +2,9 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import App from './App';
 
+describe('App component', () => {
 
-
-
-describe('shoud exist in the document', () => {
-
-    test('renders learn react link', () => {
+    test('shoud exist in the document', () => {
         const { getByTestId } = render( <App /> )
         expect( getByTestId('app') ).toBeInTheDocument()
     
