@@ -1,6 +1,6 @@
 
 // navbar colors
-$navbar-background-color: #a0a1a2;
+$navbar-background-color:#000000;
 $navbar-text-color: #ffffff;
 
 // navbar sizes
@@ -8,24 +8,17 @@ $navbar-width: 100%;
 $navbar-height: 5em;
 
 // background colors
-$background-color-light: #efeff0;
-$background-color-dark-grey: #a0a4aa;
+$background-color-black: #000000;
+$background-color-blue: #0960CF;
 
 // text colors 
-$color-light: #efeff0;
 $color-dark-grey: #4C525D;
 $color-blue : #0960CF;
-$color-dark-strong: #252424;
+$color-dark-strong: #000000;
+$color-light: #ffffff;
 
 // border colors 
-$bordercolor-blue: #0960CF;
 $bordercolor-light: #47474c;
-
-
-// border radius
-$border-radius-with-small: 2em;
-$border-radius-with-smaller: 1.5em;
-$border-radius-with-smallest: 1em;
 
 // media queries
 $min-phone-width: 320px; 

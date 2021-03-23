@@ -1,20 +1,22 @@
 /* Button style */
 @import '../../sharedStyles/globalVariablesScss.scss';
 
-.buttonLabel {
-    color: $color-dark-strong;
-    font-size: $font-size-small * 2;
-}
 .button {
     display: block;
     padding: $padding-small;
     height: 5em;
     margin-bottom: $margin-small;
     border-radius: 5px;
-    width: 35%; 
+    border: 2px solid $bordercolor-light;
+    width: 25%; 
+    background-color: $background-color-black;
     &:focus {
-        border-radius: 0em;
-        background-color: $background-color-dark-grey;
+        box-shadow: none;
+        background-color: $background-color-blue;
+    }
+    .buttonLabel {
+        color: $color-light;
+        font-size: $font-size-small * 2;
     }
 }
 

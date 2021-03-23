@@ -6,7 +6,7 @@
 ###  Which stack has been used for this project?
 
 #### React, Typescript, Redux, scss, jest in the frontend
-#### Hosting on  digitalocean http://139.59.142.175:8080/
+#### Hosting on  digitalocean http://139.59.142.175:3000/
 ------
 
 ### The structure of the project 
@@ -29,7 +29,7 @@
 ###### 2. clone the project or unzipe the zipped files
 ###### 3. npm install in the terminal from the root folder (for loading all dependencies)
 ###### 4. npm start
-###### 5. The page should be open at: [http://localhost:8080] *OBG*(Please make sure port 8080 is free when you run this project)
+###### 5. The page should be open at: [http://localhost:3000] *OBG*(Please make sure port 3000 is free when you run this project)
 
 ------
 ### How to run jest test?

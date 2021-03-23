@@ -3,12 +3,16 @@
 
 .viewContainer {
     position: relative;
-    top: 10em;
-
+    top: 20em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     .counter {
         width: 25%;
         margin: auto;
         color: $color-dark-grey;
+        &::first-letter{ text-transform: uppercase; }
     }
 }
 

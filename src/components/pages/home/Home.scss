@@ -3,17 +3,9 @@
 
 .buttonContainer {
     position: relative;
-    top: 15em;
+    top: 20em;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
-
-// Small devices ( landscape phones, tables, 320px, 700px and down )
-@media only screen and ( max-width: $min-tablet-width ) {
-    .buttonContainer {
-        flex-direction: column;
-    }
-}
-
