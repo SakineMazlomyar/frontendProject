@@ -10,4 +10,5 @@ const ViewCounter: React.FC = () => {
         <h1 className="counter">Counter: { counter.counterReducer.counter } </h1> 
     </div> )
 }
+
 export default ViewCounter

@@ -9,13 +9,12 @@ const Button: React.FC<ButtonInterface> = ( props ) => {
         props.onclick()
     }
 
-       return( <button  
-                onClick={ handleOnclick }  
-                className="button"
-                data-testid="button"> 
-                <span className="buttonLabel"> { props.label } </span>
-            </button> )
+    return( <button  
+            onClick={ handleOnclick }  
+            className="button"
+            data-testid="button"> 
+            <span className="buttonLabel"> { props.label } </span>
+        </button> )
 }
-
 
 export default Button 

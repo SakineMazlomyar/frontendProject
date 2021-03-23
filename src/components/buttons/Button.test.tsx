@@ -1,10 +1,6 @@
 import Button from './Button'
 import { ButtonInterface } from './ButtonInterfaces'
 import { createEvent, fireEvent, render } from '@testing-library/react'
-import { configure } from 'enzyme'
-import Adapter from 'enzyme-adapter-react-16'
-
-configure( { adapter: new Adapter() } ) 
 
 const props: ButtonInterface = {
     onclick: jest.fn(), 

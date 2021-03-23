@@ -13,4 +13,5 @@ const Home : React.FC = () => {
             <Button onclick={ ()=> dispatch( counterIncrement() ) } label="+" color="#B0D41E" />
         </div> )
 }
+
 export default Home

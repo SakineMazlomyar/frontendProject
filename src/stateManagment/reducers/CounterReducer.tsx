@@ -12,4 +12,5 @@ const counterReducer = ( state = initialState, action:ActionInterface ) => {
         return state
     }
 }
+
 export default counterReducer

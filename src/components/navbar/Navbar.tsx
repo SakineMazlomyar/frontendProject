@@ -1,6 +1,5 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-
 import './Navbar.scss'
 
 const Navbar: React.FC = () => {
@@ -12,4 +11,5 @@ const Navbar: React.FC = () => {
             </ul>
         </nav>) 
 }
+
 export default Navbar
