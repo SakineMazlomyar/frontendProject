@@ -10,8 +10,8 @@ const App: React.FC = () => {
     <Provider store={ Store }>
         <div data-testid="app">
             <BrowserRouter>
-            <Navbar />
-            <Routes />  
+                <Navbar />
+                <Routes />  
             </BrowserRouter>
         </div>
     </Provider>
