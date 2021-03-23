@@ -20,7 +20,7 @@ describe( 'Routes', () => {
     test( 'should find correct path for counterPage', () => {
         const history = createMemoryHistory( { initialEntries: ['/counterPage'] } )
         render( 
-            <Router history={history}>
+            <Router history={ history }>
                 <App  />
             </Router>, root )
 

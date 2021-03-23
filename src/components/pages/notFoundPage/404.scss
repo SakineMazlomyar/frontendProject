@@ -3,10 +3,10 @@
 .notFoundPageContainer {
     position: relative;
     top: 10em;
-}
-
-.notFoundPageMessage {
-    display: block;
-    margin: auto;
-    text-align: center;
+    
+    .notFoundPageMessage {
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
 }

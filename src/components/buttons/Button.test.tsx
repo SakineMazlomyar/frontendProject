@@ -1,7 +1,7 @@
 import Button from './Button'
 import { ButtonInterface } from './ButtonInterfaces'
-import { render } from '@testing-library/react'
-import { shallow, configure } from 'enzyme'
+import { createEvent, fireEvent, render } from '@testing-library/react'
+import { configure } from 'enzyme'
 import Adapter from 'enzyme-adapter-react-16'
 
 configure( { adapter: new Adapter() } ) 
@@ -17,13 +17,15 @@ describe( 'Button component', () => {
     test('should be in the document element', () => {
         const { getByTestId } =  render(<Button {...props} />)
         expect( getByTestId('button') ).toBeInTheDocument()
-
     })
 
-    test( 'stimulate the dispatch count increment when it is called once', () => {
-        const component = shallow( <Button {...props} /> )
-        component.find( 'button' ).simulate( 'click' )
-        expect( props.onclick).toBeCalled()
+    test( 'Dispatch count increment when it is called once and prevent the default event from occuring', () => {
+        const { getByTestId } = render( <Button {...props} /> )
+        const keyDownEvent = createEvent.keyDown( getByTestId( 'button' ) )
+
+        fireEvent( getByTestId('button'), keyDownEvent )
+        expect( keyDownEvent.defaultPrevented ).toBe( false );
+
     })
 })
 

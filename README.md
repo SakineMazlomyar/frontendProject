@@ -32,3 +32,6 @@
 ###### 5. The page should be open at: [http://localhost:8080] *OBG*(Please make sure port 8080 is free when you run this project)
 
 ------
+### How to run jest test?
+###### 1. go to root foler
+###### 2. open the terminal and run `npm test` you should see the result 
