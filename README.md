@@ -1,6 +1,6 @@
 ###  What is this app for?
 ##### A simple Application for increment a number and show the result on another page.
-##### Live url: http://139.59.142.175:8080/
+##### Live url: http://139.59.142.175:3000/
 ----
 
 ###  Which stack has been used for this project?
@@ -35,8 +35,3 @@
 ### How to run jest test?
 ###### 1. go to root foler
 ###### 2. open the terminal and run `npm test` you should see the result 
-
-------
-### How to run build?
-#### 1. make sure you run the project once before this step
-#### 2. npm run build
