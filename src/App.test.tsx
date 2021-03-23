@@ -8,3 +8,4 @@ describe('App component', () => {
         expect( getByTestId('app') ).toBeInTheDocument()
     })
 })
+ 
