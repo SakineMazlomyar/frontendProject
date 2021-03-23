@@ -35,3 +35,8 @@
 ### How to run jest test?
 ###### 1. go to root foler
 ###### 2. open the terminal and run `npm test` you should see the result 
+
+------
+### How to run build
+##### 1. make sure you run this project once 
+##### 2. npm run build
