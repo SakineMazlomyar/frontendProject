@@ -1,10 +1,9 @@
-import { createStore, applyMiddleware } from 'redux'
+import { createStore, applyMiddleware, Store } from 'redux'
 import thunk from 'redux-thunk'
 import rootReducers from '../reducers'
-
+import { ActionInterface, StateInterface } from '../reducers/ReducerInterfaces'
 const initialState: Object = {}
-const middleWare = [ thunk ]
 
-const store = createStore( rootReducers ,initialState ,applyMiddleware(...middleWare) )
+const store:Store<Object, ActionInterface>= createStore( rootReducers, initialState ,applyMiddleware(...[ thunk ]) )
 
 export default store

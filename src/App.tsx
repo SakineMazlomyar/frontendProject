@@ -6,13 +6,13 @@ import Routes from './routes'
 import Navbar from './components/navbar/Navbar'
 
 const App: React.FC = () => {
-  return (
+    return (
     <Provider store={ Store }>
         <div data-testid="app">
-          <BrowserRouter>
+            <BrowserRouter>
             <Navbar />
             <Routes />  
-          </BrowserRouter>
+            </BrowserRouter>
         </div>
     </Provider>
 )}

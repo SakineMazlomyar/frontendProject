@@ -20,7 +20,7 @@ describe( 'Button component', () => {
         const keyDownEvent = createEvent.keyDown( getByTestId( 'button' ) )
 
         fireEvent( getByTestId('button'), keyDownEvent )
-        expect( keyDownEvent.defaultPrevented ).toBe( false );
+        expect( keyDownEvent.defaultPrevented ).toBe( false )
 
     })
 })

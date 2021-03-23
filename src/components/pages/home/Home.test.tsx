@@ -13,5 +13,4 @@ describe('Home component', () => {
         store.dispatch( counterIncrement())
         expect( store.getActions() ).toEqual( [{ type: 'INCREMENT_NUMBER'}] )
     })
-
 })
