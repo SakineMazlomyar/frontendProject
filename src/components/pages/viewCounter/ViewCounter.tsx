@@ -5,10 +5,10 @@ import { StateInterface  } from './ViewCounterInterfaces'
 
 const ViewCounter: React.FC = () => {
     const counter = useSelector<StateInterface, StateInterface>( ( state ) => state )
-    return ( 
-    <div className="viewContainer" data-testid="viewContainer"> 
-        <h1 className="counter">counter: { counter.counterReducer.counter } </h1> 
-    </div> )
+
+    return ( <div className="viewContainer" data-testid="viewContainer"> 
+                <h1 className="counter">counter: { counter.counterReducer.counter } </h1> 
+            </div> )
 }
 
 export default ViewCounter

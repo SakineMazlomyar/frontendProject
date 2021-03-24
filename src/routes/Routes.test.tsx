@@ -14,6 +14,7 @@ describe( 'Routes', () => {
         const navbar = shallow( <Routes /> )
         expect( navbar.find('navbar') ).toBeTruthy()
     })
+    
     const root = document.createElement('div')
     document.body.appendChild( root )
 
