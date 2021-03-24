@@ -34,7 +34,7 @@
 
 ------
 ### How to run jest test? *OBG* (Make sure the application is running before you start testing.)
-###### 1. go to root foler
+###### 1. go to root folder
 ###### 2. npm install
 ###### 3. open another terminal and run `npm test` you should scroll up and see the result like this
 ###### ![./public/test-react-app.png](./public/test-react-app.png)
