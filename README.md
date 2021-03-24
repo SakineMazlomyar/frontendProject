@@ -14,8 +14,7 @@
 #### From the root in the src  folder you can find:
 ##### 1. components,    ==> Every component has its style, interface, test separately 
 ##### 2. sharedStyles,  ==> Here is where all global variables for the scss files
-##### 3. routes,        ==> Defines every single  route in this project
-##### 4. stateManagment ==> The core of the application which holds the data for the entire application
+##### 3. stateManagment ==> The core of the application which holds the data for the entire application
 
 ------
 

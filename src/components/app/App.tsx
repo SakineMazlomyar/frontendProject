@@ -1,9 +1,10 @@
 import React from 'react'
 import { Provider } from 'react-redux' 
 import { BrowserRouter } from 'react-router-dom'
-import Store from './stateManagment/store/Store'
-import Routes from './routes'
-import Navbar from './components/navbar/Navbar'
+import Store from '../../stateManagment/store/Store'
+import Routes from '../routes'
+import Navbar from '../navbar/Navbar'
+import './App.scss'
 
 const App: React.FC = () => {
 

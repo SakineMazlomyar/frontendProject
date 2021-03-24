@@ -3,7 +3,7 @@ import { shallow, configure } from 'enzyme'
 import Adapter from 'enzyme-adapter-react-16'
 import { render } from 'react-dom'
 import { createMemoryHistory } from "history"
-import App from '../App'
+import App from '../app/App'
 import { Router } from 'react-router'
 
 configure( { adapter: new Adapter() } ) 
