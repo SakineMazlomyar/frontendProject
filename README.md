@@ -26,18 +26,18 @@
 ------
 
 ### How to run the dev envirument? 
-###### 1. make sure you have latest node and npm package installed
-###### 2. clone the project or unzipe the zipped files
-###### 3. Open a terminal and from the root of folder run this command `npm install` (for loading all dependencies)
-###### 4. `npm start`
-###### 5. The page should be open at: [http://localhost:3000] *OBG*(Please make sure port 3000 is free when you run this project)
+##### 1. make sure you have latest node and npm package installed
+##### 2. clone the project or unzipe the zipped files
+##### 3. Open a terminal and from the root of folder run this command `npm install` (for loading all dependencies)
+##### 4. `npm start`
+##### 5. The page should be open at: [http://localhost:3000] *OBG*(Please make sure port 3000 is free when you run this project)
 
 ------
 ### How to run jest test? *OBG* (Make sure the application is running before you start testing.)
-###### 1. go to root folder
-###### 2. `npm install`
-###### 3. open another terminal and run `npm test` scroll up and you should see the result like this
-###### ![./public/test-react-app.png](./public/test-react-app.png)
+##### 1. go to root folder
+##### 2. `npm install`
+##### 3. open another terminal and run `npm test` scroll up and you should see the result like this
+##### ![./public/test-react-app.png](./public/test-react-app.png)
 
 ------
 ### How to run build
