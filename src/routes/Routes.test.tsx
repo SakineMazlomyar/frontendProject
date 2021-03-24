@@ -17,14 +17,14 @@ describe( 'Routes', () => {
     const root = document.createElement('div')
     document.body.appendChild(root)
 
-    test( 'should find correct path for counterPage', () => {
-        const history = createMemoryHistory( { initialEntries: ['/counterPage'] } )
+    test( 'should find correct path for counter page', () => {
+        const history = createMemoryHistory( { initialEntries: ['/counter'] } )
         render( 
             <Router history={ history }>
                 <App  />
             </Router>, root )
 
-        expect( history.location.pathname ).toBe( "/counterPage" )   
+        expect( history.location.pathname ).toBe( "/counter" )   
 
     })
 

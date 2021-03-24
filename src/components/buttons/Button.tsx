@@ -12,8 +12,9 @@ const Button: React.FC<ButtonInterface> = ( props ) => {
     return( <button  
             onClick={ handleOnclick }  
             className="button"
-            data-testid="button"> 
-            <span className="buttonLabel"> { props.label } </span>
+            data-testid="button"
+            style={{backgroundColor:props.color}}> 
+            <span className="buttonLabel" data-testid="label"> { props.label } </span>
         </button> )
 }
 

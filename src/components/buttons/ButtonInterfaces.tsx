@@ -3,5 +3,5 @@
 export interface ButtonInterface {
     onclick: () => { type:string },
     label: string,
-    color: string
+    color?: string
 }

@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar component shoud exist and match the snapshot 1`] = `
+<nav
+  className="navbar"
+  data-testid="navbar"
+>
+  <ul
+    className="navbarItemContainer "
+  >
+    <li
+      className="navbarItem"
+    >
+      <NavLink
+        activeClassName="active"
+        exact={true}
+        to="/"
+      >
+        home
+      </NavLink>
+    </li>
+    <li
+      className="navbarItem"
+    >
+      <NavLink
+        activeClassName="active"
+        exact={true}
+        id="counter-page"
+        to="/counter"
+      >
+        counter
+      </NavLink>
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`Navbar component shoud exist and match the snapshot 1`] = `
+<nav
+  className="navbar"
+  data-testid="navbar"
+>
+  <ul
+    className="navbarItemContainer "
+  >
+    <li
+      className="navbarItem"
+    >
+      <NavLink
+        activeClassName="active"
+        exact={true}
+        to="/"
+      >
+        home
+      </NavLink>
+    </li>
+    <li
+      className="navbarItem"
+    >
+      <NavLink
+        activeClassName="active"
+        exact={true}
+        id="counter-page"
+        to="/counter"
+      >
+        counter
+      </NavLink>
+    </li>
+  </ul>
+</nav>
+`;

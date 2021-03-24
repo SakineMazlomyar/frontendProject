@@ -4,15 +4,16 @@ import { createEvent, fireEvent, render } from '@testing-library/react'
 
 const props: ButtonInterface = {
     onclick: jest.fn(), 
-    label: "Increment", 
-    color: "#B0D41E"
+    label: "+", 
+    color: "#000000" // optional
 }
 
 describe('Button component', () => {
 
-    test('should be in the document element', () => {
+    test('should be in the document element with + label', () => {
         const { getByTestId } =  render( <Button {...props} /> )
         expect( getByTestId('button') ).toBeInTheDocument()
+        expect( getByTestId('label') ).toHaveTextContent('+')
     })
 
     test('Dispatch count increment when it is called once and prevent the default event from occuring', () => {

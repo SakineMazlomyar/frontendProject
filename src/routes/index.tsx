@@ -9,7 +9,7 @@ const Routes: React.FC  = () => {
     return (
         <Switch>
                 <Route exact path="/"  component={ Home }></Route>
-                <Route path="/counterPage" component={ ViewCounter }></Route>
+                <Route path="/counter" component={ ViewCounter }></Route>
                 <Route component={ NofoundPage }></Route>
         </Switch>
     )

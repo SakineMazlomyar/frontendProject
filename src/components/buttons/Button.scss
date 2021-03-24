@@ -9,11 +9,12 @@
     border-radius: 5px;
     border: 2px solid $bordercolor-light;
     width: 25%; 
-    background-color: $background-color-black;
+
     &:focus {
         box-shadow: none;
-        background-color: $background-color-blue;
+        background-color: $background-color-blue !important;
     }
+
     .buttonLabel {
         color: $color-light;
         font-size: $font-size-small * 2;

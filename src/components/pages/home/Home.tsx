@@ -10,7 +10,7 @@ const Home : React.FC = () => {
     const dispatch = useDispatch<Dispatch<{ type:string }>>()
     return (
         <div className="buttonContainer">
-            <Button onclick={ ()=> dispatch( counterIncrement() ) } label="+" color="#B0D41E" />
+            <Button onclick={ ()=> dispatch( counterIncrement() ) } label="+" color="#000000" />
         </div> )
 }
 
