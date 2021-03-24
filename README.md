@@ -1,6 +1,6 @@
 ----
 ###  What is this app for?
-##### A simple Application for increment a number and showing the result on another page.
+##### A simple application for incrementing a number and showing the result on another page.
 ##### Live url: http://139.59.142.175:3000/
 ----
 
