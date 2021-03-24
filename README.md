@@ -30,7 +30,7 @@
 ##### 2. clone the project or unzipe the zipped files
 ##### 3. Open a terminal and from the root of folder run this command `npm install` (for loading all dependencies)
 ##### 4. `npm start`
-##### 5. The page should be open at: [http://localhost:3000] *OBG*(Please make sure port 3000 is free when you run this project)
+##### 5. The page should be open at: [http://localhost:3000] *OBG*(Please make sure port `3000` is free when you run this project)
 
 ------
 ### How to run jest test? *OBG* (Make sure the application is running before you start testing.)
