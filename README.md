@@ -29,16 +29,16 @@
 ###### 1. make sure you have latest node and npm package installed
 ###### 2. clone the project or unzipe the zipped files
 ###### 3. npm install in the terminal from the root folder (for loading all dependencies)
-###### 4. npm run start
+###### 4. npm start
 ###### 5. The page should be open at: [http://localhost:3000] *OBG*(Please make sure port 3000 is free when you run this project)
 
 ------
 ### How to run jest test?
 ###### 1. go to root foler
-###### 2. open the terminal and run `npm test` you should scroll up and see the result like this
+###### 2. open a terminal and run `npm test` you should scroll up and see the result like this
 ###### ![./public/test-react-app.png](./public/test-react-app.png)
 
 ------
 ### How to run build
-##### 1. make sure you run this project once 
+##### 1. make sure you run this project once before you want to run build
 ##### 2. npm run build
