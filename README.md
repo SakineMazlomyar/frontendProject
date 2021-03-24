@@ -20,9 +20,9 @@
 ------
 
 ### Which improvments has been done on this project that has not been in the requirements?
-###### 1. Using scss instead of css
-###### 2. Adding jest test
-###### 3. Hosting on digital ocean
+##### 1. Using scss instead of css
+##### 2. Adding jest test
+##### 3. Hosting on digital ocean
 ------
 
 ### How to run the dev envirument? 
