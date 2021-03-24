@@ -12,6 +12,6 @@ const Routes: React.FC  = () => {
                         <Route path="/counter" component={ ViewCounter }></Route>
                         <Route component={ NofoundPage }></Route>
                 </Switch>
-           </React.Fragment>)
+           </React.Fragment> )
 }
 export default Routes
