@@ -15,7 +15,7 @@ describe( 'Routes', () => {
         expect( navbar.find('navbar') ).toBeTruthy()
     })
     const root = document.createElement('div')
-    document.body.appendChild(root)
+    document.body.appendChild( root )
 
     test( 'should find correct path for counter page', () => {
         const history = createMemoryHistory( { initialEntries: ['/counter'] } )

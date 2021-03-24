@@ -9,7 +9,7 @@ const App: React.FC = () => {
 
     return (
     <Provider store={ Store }>
-        <div data-testid="app">
+        <div className="app" data-testid="app">
             <BrowserRouter>
                 <Navbar />
                 <Routes />  
