@@ -16,7 +16,9 @@
     flex-direction: row;
     justify-content: space-around;
     list-style: none;
+    
     .navbarItem {
+
         .active {
             color: $color-blue;
             text-decoration: underline;
@@ -31,10 +33,12 @@
 
 // Small devices phones, tablets ( landscape 700px and down )
 @media only screen and ( max-width: $min-tablet-width ) {
+
    .navbarItemContainer {
-    flex-direction: column;
+
     .navbarItem {
         padding-bottom: $padding-smaller;
+
         .active {
                 font-size: $font-size-small;
             }

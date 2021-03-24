@@ -5,26 +5,15 @@
     position: relative;
     top: 20em;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    
     .counter {
-        width: 25%;
-        margin: auto;
         color: $color-dark-grey;
         &::first-letter{ text-transform: uppercase; }
     }
 }
 
-// Small devices (landscape phones, tables, 700px and down)
-@media only screen and ( max-width: $min-tablet-width ) {
-    .viewContainer {
-        .counter {
-            display: block;
-            margin-left: $margin-small;
-            width: 100%;
-        }
-    }
-}
 
 
