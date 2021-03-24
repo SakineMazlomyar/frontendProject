@@ -26,7 +26,7 @@
 
 ### How to run the dev envirument? 
 ##### 1. make sure you have latest node and npm package installed
-##### 2. clone the project or unzip the zipped files
+##### 2. clone the project
 ##### 3. Open a terminal and from the root of folder run this command `npm install` (for installing all dependencies)
 ##### 4. `npm start`
 ##### 5. The page should be open at: `http://localhost:3000` *OBG*(Please make sure port `3000` is free when you run this project)
