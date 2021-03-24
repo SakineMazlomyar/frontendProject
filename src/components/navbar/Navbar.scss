@@ -16,7 +16,7 @@
     flex-direction: row;
     justify-content: space-around;
     list-style: none;
-    
+
     .navbarItem {
 
         .active {
@@ -35,7 +35,9 @@
 @media only screen and ( max-width: $min-tablet-width ) {
 
    .navbarItemContainer {
-
+    display: flex;
+    flex-direction: column;
+    
     .navbarItem {
         padding-bottom: $padding-smaller;
 
