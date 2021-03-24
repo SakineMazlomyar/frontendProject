@@ -7,15 +7,14 @@ import Navbar from './components/navbar/Navbar'
 
 const App: React.FC = () => {
 
-    return (
-    <Provider store={ Store }>
-        <div className="app" data-testid="app">
-            <BrowserRouter>
-                <Navbar />
-                <Routes />  
-            </BrowserRouter>
-        </div>
-    </Provider>
-)}
+    return ( <Provider store={ Store }>
+                <div className="app" data-testid="app">
+                    <BrowserRouter>
+                        <Navbar />
+                        <Routes />  
+                    </BrowserRouter>
+                </div>
+            </Provider> )
+}
 
 export default App
