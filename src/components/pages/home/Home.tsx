@@ -8,11 +8,10 @@ import './Home.scss'
 const Home : React.FC = () => {
 
     const dispatch = useDispatch<Dispatch<{ type:string }>>()
-    
-    return (
-        <div className="buttonContainer">
-            <Button onclick={ ()=> dispatch( counterIncrement() ) } label="+" color="#000000" />
-        </div> )
+
+    return ( <div className="buttonContainer">
+                <Button onclick={ ()=> dispatch( counterIncrement() ) } label="+" color="#000000" />
+            </div> )
 }
 
 export default Home

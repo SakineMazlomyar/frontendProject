@@ -11,7 +11,6 @@ const Routes: React.FC  = () => {
                 <Route exact path="/"  component={ Home }></Route>
                 <Route path="/counter" component={ ViewCounter }></Route>
                 <Route component={ NofoundPage }></Route>
-        </Switch>
-    )
+        </Switch>)
 }
 export default Routes

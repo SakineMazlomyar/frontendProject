@@ -25,7 +25,5 @@ describe( 'Routes', () => {
             </Router>, root )
 
         expect( history.location.pathname ).toBe( "/counter" )   
-
     })
-
 })
