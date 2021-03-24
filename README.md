@@ -33,9 +33,10 @@
 ###### 5. The page should be open at: [http://localhost:3000] *OBG*(Please make sure port 3000 is free when you run this project)
 
 ------
-### How to run jest test?
+### How to run jest test? *OBG* (Make sure the application is running before you start testing.)
 ###### 1. go to root foler
-###### 2. open a terminal and run `npm test` you should scroll up and see the result like this
+###### 2. npm install
+###### 3. open another terminal and run `npm test` you should scroll up and see the result like this
 ###### ![./public/test-react-app.png](./public/test-react-app.png)
 
 ------
