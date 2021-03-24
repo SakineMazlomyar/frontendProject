@@ -42,4 +42,4 @@
 ------
 ### How to run build
 ##### 1. make sure you run this project once before you want to run build
-##### 2. npm run build
+##### 2. npm run build 
