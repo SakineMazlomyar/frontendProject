@@ -37,7 +37,7 @@
 ##### 1. go to root folder
 ##### 2. `npm install`
 ##### 3. open another terminal and run `npm test` scroll up and you should see the result like this
-##### ![./public/test-react-app.png](./public/test-react-app.png)
+##### ![./public/test-react-app.png](./public/pictures/test-react-app.png)
 
 ------
 ### How to run build
