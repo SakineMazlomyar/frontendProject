@@ -5,7 +5,7 @@
 
 ###  Which stack has been used for this project?
 
-#### React, Typescript, Redux, Scss, Jest and Git in the frontend
+#### React, Typescript, Redux, Scss, Jest and Git
 #### Hosting on  digitalocean http://139.59.142.175:3000/
 ------
 
