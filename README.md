@@ -37,11 +37,11 @@
 ###### Data-testid is used in order to select the component and making sure it exists. The name of the file is componentName.test.extension. 
 ###### Making the same props, store and onclicks as we do in a real dom. 
 *Which parts is getting tested:*
-#### 1. the component exist, 
-#### 2. right props has been sent, 
-#### 3. the url is correct 
-#### 4. the right action from reducer is sent to that specefic component
-#### 5. the onclick should work as expected and of cource prevent default
+#### 1. The component exist, 
+#### 2. Right props has been sent, 
+#### 3. The url is correct 
+#### 4. The right action from reducer is sent/called to that specefic component
+#### 5. The onclick should work as expected and of cource prevent default
 
 ### How to run jest test? *OBG* (Make sure the application is running before you start testing.)  
 ##### 1. go to root folder
