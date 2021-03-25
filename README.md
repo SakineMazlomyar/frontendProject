@@ -44,11 +44,11 @@
 #### 5. The onclick should work as expected and of cource prevent default
 
 #### How to run jest test? 
-##### *OBG* (Make sure the application is running before you start testing. Otherwise you can jump to point 3 and start testing)  
+##### *OBG* (Make sure the application is running before you start testing. Otherwise you can jump to point 4 and start testing)  
 ##### 1. go to root folder
 ##### 2. `npm install`
 ##### 3. `npm start`
-##### 3. open another terminal and run `npm test` scroll up and you should see the result like this
+##### 4. open another terminal and run `npm test` scroll up and you should see the result like this
 ##### ![./public/test-react-app.png](./public/pictures/test-react-app.png)
 
 ------
