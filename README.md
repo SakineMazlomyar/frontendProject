@@ -51,6 +51,7 @@
 ##### 4. open another terminal and run `npm test` scroll up and you should see the result like this
 ##### ![./public/test-react-app.png](./public/pictures/test-react-app.png)
 
+##### *Jest documentation please visit this website* https://jestjs.io/docs/tutorial-react
 ------
 ### How to run build
 ##### 1. make sure you run this project once before you want to run build
