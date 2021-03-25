@@ -32,7 +32,18 @@
 ##### 5. The page should be open at: `http://localhost:3000` *OBG*(Please make sure port `3000` is free when you run this project)
 
 ------
-### How to run jest test? *OBG* (Make sure the application is running before you start testing.)
+### Jest: 
+##### Description of the tests: 
+###### I use data-testid in order to get the component in our test files. The name of the file is componentName.test.extension. 
+###### We make the same props and onclick as we do in a real dom. 
+*We make sure:*
+#### 1. the component exist, 
+#### 2. right props has been sent, 
+#### 3. the url is correct 
+#### 4. the right action from reducer is sent to that specefic component
+#### 5. the onclick should work as expected and of cource prevent default
+
+### How to run jest test? *OBG* (Make sure the application is running before you start testing.)  
 ##### 1. go to root folder
 ##### 2. `npm install`
 ##### 3. open another terminal and run `npm test` scroll up and you should see the result like this
