@@ -34,7 +34,7 @@
 ------
 ### Jest: 
 ##### Description of the tests: 
-###### I use data-testid in order to get the component in our test files. The name of the file is componentName.test.extension. 
+###### I use data-testid in order to select the component and making sure it exist. The name of the file is componentName.test.extension. 
 ###### We make the same props and onclick as we do in a real dom. 
 *We make sure:*
 #### 1. the component exist, 
