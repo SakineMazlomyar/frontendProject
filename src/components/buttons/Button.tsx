@@ -11,10 +11,10 @@ const Button: React.FC<ButtonInterface> = ( props ) => {
 
     return( <button  
             onClick={ handleOnclick }  
-            className="button"
-            data-testid="button"
-            style={{backgroundColor:props.color}}> 
-            <span className="buttonLabel" data-testid="label"> { props.label } </span>
+            className="buttonIncrement"
+            data-testid="button-increment"
+            style={{ backgroundColor:props.color }}> 
+            <span className="labelIncrement " data-testid="label-increment"> { props.label } </span>
         </button> )
 }
 

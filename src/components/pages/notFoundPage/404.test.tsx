@@ -5,7 +5,7 @@ describe('notFoundPage  component', () => {
    
     test('should exit', () => {
         const { getByTestId } =  render( <NofoundPage/> )
-        expect( getByTestId( 'notFoundPage' ) ).toBeInTheDocument()
+        expect( getByTestId( 'not-found-page' ) ).toBeInTheDocument()
     })
 
 })

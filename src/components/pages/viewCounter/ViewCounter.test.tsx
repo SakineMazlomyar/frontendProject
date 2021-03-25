@@ -10,6 +10,6 @@ describe( 'View counter component', () => {
             <Provider store={ Store }>
                 <ViewCounter />
             </Provider>)
-        expect( getByTestId("viewContainer") ).toBeInTheDocument()
+        expect( getByTestId("view-container") ).toBeInTheDocument()
     })
 })

@@ -6,7 +6,7 @@ import { StateInterface  } from './ViewCounterInterfaces'
 const ViewCounter: React.FC = () => {
     const counter = useSelector<StateInterface, StateInterface>( ( state ) => state )
 
-    return ( <div className="viewContainer" data-testid="viewContainer"> 
+    return ( <div className="viewContainer" data-testid="view-container"> 
                 <h1 className="counter">counter: { counter.counterReducer.counter } </h1> 
             </div> )
 }

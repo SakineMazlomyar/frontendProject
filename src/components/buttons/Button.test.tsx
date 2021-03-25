@@ -12,15 +12,15 @@ describe('Button component', () => {
 
     test('should be in the document element with + label', () => {
         const { getByTestId } =  render( <Button {...props} /> )
-        expect( getByTestId('button') ).toBeInTheDocument()
-        expect( getByTestId('label') ).toHaveTextContent('+')
+        expect( getByTestId('button-increment') ).toBeInTheDocument()
+        expect( getByTestId('label-increment') ).toHaveTextContent('+')
     })
 
     test('Dispatch count increment when it is called once and prevent the default event from occuring', () => {
         const { getByTestId } = render( <Button {...props} /> )
-        const keyDownEvent = createEvent.keyDown( getByTestId( 'button' ) )
+        const keyDownEvent = createEvent.keyDown( getByTestId( 'button-increment' ) )
 
-        fireEvent( getByTestId('button'), keyDownEvent )
+        fireEvent( getByTestId('button-increment'), keyDownEvent )
         expect( keyDownEvent.defaultPrevented ).toBe( false )
 
     })

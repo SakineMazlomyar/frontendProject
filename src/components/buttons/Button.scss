@@ -1,7 +1,7 @@
 /* Button style */
 @import '../../sharedStyles/globalVariablesScss.scss';
 
-.button {
+.buttonIncrement {
     display: block;
     padding: $padding-small;
     height: 5em;
@@ -15,7 +15,7 @@
         background-color: $background-color-blue !important;
     }
 
-    .buttonLabel {
+    .labelIncrement {
         color: $color-light;
         font-size: $font-size-small * 2;
     }
